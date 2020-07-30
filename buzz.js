@@ -1,8 +1,14 @@
 var numeros=100;
 
+if (esdivisible(20,5)){
+    console.log("es divisible");
+}else{
+    console.log("no es divisble ");
+}
 
 
 for(i=1;i<=100;i++){
+
 if(esdivisible(i,3)&&esdivisible(i,5)){
     document.write("Fizzbuzz <br>" )
 }else if(esdivisible(i,3)){
@@ -18,8 +24,8 @@ alert("holaa!");
 
 function esdivisible(number, dividor){
  if(number % dividor==0){
-     true;
+     return true;
  }else{
-     false ;
+     return false ;
  }
 }
