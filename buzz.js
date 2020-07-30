@@ -1,15 +1,17 @@
-var number;
+var numeros=100;
 
-for(i=0;i<101;i++){
-if(esdivisible(number,3)&&esdivisible(number,5)){
+
+
+for(i=0;i<=100;i++){
+if(esdivisible(i,3)&&esdivisible(i,5)){
     document.write("Fizzbuzz <br>" )
-}else if(esdivisible(number,3)){
+}else if(esdivisible(i,3)){
     document.write ("Fizz <br>")
-}else if(esdivisible(number,5)){
+}else if(esdivisible(i,5)){
     document.write ("Buzz <br>")
 }
 else{
-    document.write(number +"<br>");
+    document.write(i+"<br>");
 }
 }
 alert("holaa!");
