@@ -7,7 +7,7 @@ if (esdivisible(20,5)){
 }
 
 
-for(i=1;i<=100;i++){
+for(i=1;i<=numeros;i++){
 
 if(esdivisible(i,3)&&esdivisible(i,5)){
     document.write("Fizzbuzz <br>" )
