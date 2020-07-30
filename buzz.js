@@ -12,9 +12,12 @@ else{
     document.write(number +"<br>");
 }
 }
-
+alert("holaa!");
 
 function esdivisible(number, dividor){
-if
-
+ if(number % dividor==0){
+     true;
+ }else{
+     false ;
+ }
 }
